@@ -1,0 +1,830 @@
+[
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-12',
+                'text': (
+                    'Been using this app for about 3 months now. The interface is sleek and intuitive. Love how easy i'
+                    't is to track my orders. Wish there were more filter options though, especially for price range. '
+                    'Sometimes it runs a bit slow on my older phone but nothing major. Overall pretty happy with it!'
+                ),
+                'rating': '★★★★☆ (4 stars)',
+                'review_id': 'R73491',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73491',
+                'overall_sentiment': 'positive',
+                'notable_phrases': [
+                    'The interface is sleek and intuitive',
+                    'Love how easy it is to track my orders',
+                    'Overall pretty happy with it!',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Order Operations',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'mixed',
+                        'problem': 'App runs a bit slow on older phones',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Product Information',
+                        'sentiment': 'negative',
+                        'problem': 'Lack of filter options for price range',
+                        'suggested_solution': 'Add more filter options, especially for price range',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-15',
+                'text': (
+                    "I've been using this app for almost a year. The experience has gotten worse since the new version"
+                    '. Things that used to take one tap now require navigating through multiple menus. On the bright s'
+                    "ide, the new design looks more modern, and I haven't experienced any crashes like some other revi"
+                    'ewers mentioned.'
+                ),
+                'rating': '★★★☆☆ (3 stars)',
+                'review_id': 'R73496',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73496',
+                'overall_sentiment': 'mixed',
+                'notable_phrases': [
+                    'experience has gotten worse since the new version',
+                    'the new design looks more modern',
+                    "I haven't experienced any crashes",
+                ],
+                'opinions': [
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Tasks that used to take one tap now require navigating through multiple menus',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': 'Maintain the modern design while improving functionality',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-23',
+                'text': (
+                    "I mean... it does what it's supposed to do I guess? I've seen better shopping apps. The search co"
+                    'uld be more accurate. Items take forever to arrive. Customer support replied to my question after'
+                    " a week. The colors in the pictures don't always look the same when I get the actual product."
+                ),
+                'rating': '★★★☆☆ (3 stars)',
+                'review_id': 'R73488',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73488',
+                'overall_sentiment': 'mixed',
+                'notable_phrases': [
+                    "it does what it's supposed to do I guess?",
+                    'The search could be more accurate.',
+                    'Items take forever to arrive.',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'neutral',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Search functionality is not accurate',
+                        'suggested_solution': 'Improve search accuracy',
+                    },
+                    {
+                        'topic': 'Order Operations',
+                        'sentiment': 'negative',
+                        'problem': 'Items take a long time to arrive',
+                        'suggested_solution': 'Speed up delivery times',
+                    },
+                    {
+                        'topic': 'Customer Service',
+                        'sentiment': 'negative',
+                        'problem': 'Customer support response time is slow',
+                        'suggested_solution': 'Enhance customer support response times',
+                    },
+                    {
+                        'topic': 'Product Information',
+                        'sentiment': 'negative',
+                        'problem': 'Product colors in pictures do not match actual items',
+                        'suggested_solution': 'Ensure product images accurately represent items',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-24',
+                'text': (
+                    'The latest update ruined this app for me. Not only is the new interface confusing and cluttered, '
+                    'but now it drains my battery like crazy and overheats my phone. I tried to contact support about '
+                    'both these issues and the fact that my saved items disappeared after the update, but received a g'
+                    "eneric response that didn't address any of my specific concerns. What's worse is that the app now"
+                    " sends twice as many notifications, many of which are just ads disguised as 'personalized recomme"
+                    "ndations' that aren't even relevant to my shopping history."
+                ),
+                'rating': '★★☆☆☆ (2 stars)',
+                'review_id': 'R73489',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73489',
+                'overall_sentiment': 'negative',
+                'notable_phrases': [
+                    'latest update ruined this app for me',
+                    'drains my battery like crazy',
+                    "received a generic response that didn't address any of my specific concerns",
+                ],
+                'opinions': [
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'negative',
+                        'problem': 'New interface is confusing and cluttered',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'App drains battery and overheats phone',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Customer Service',
+                        'sentiment': 'negative',
+                        'problem': 'Received a generic response from support',
+                        'suggested_solution': 'Provide more specific and helpful responses to user inquiries',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Saved items disappeared after the update',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Notifications',
+                        'sentiment': 'negative',
+                        'problem': 'App sends excessive notifications, many of which are irrelevant ads',
+                        'suggested_solution': 'Reduce the number of notifications and ensure relevance to user preferences',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-10',
+                'text': (
+                    "The app does what it's supposed to do for the most part. The delivery tracking is excellent and a"
+                    "lways accurate. However, the customer service is absolutely terrible. I've been trying to get a r"
+                    'efund for a wrong item for two weeks with no response. Also appreciate the recent UI update - muc'
+                    'h cleaner now.'
+                ),
+                'rating': '★★★☆☆ (3 stars)',
+                'review_id': 'R73494',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73494',
+                'overall_sentiment': 'mixed',
+                'notable_phrases': [
+                    'delivery tracking is excellent and always accurate',
+                    'customer service is absolutely terrible',
+                    'appreciate the recent UI update - much cleaner now',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'Order Operations',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Customer Service',
+                        'sentiment': 'negative',
+                        'problem': 'Customer service is unresponsive regarding refund requests',
+                        'suggested_solution': 'Improve customer service response times',
+                    },
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-05-01',
+                'text': (
+                    'The checkout flow is broken. Cart abandonment is super high because the payment gateway times out'
+                    ". The conversion funnel analytics also don't properly track from PDP to checkout. CTR on recommen"
+                    'ded items has tanked since last update. Fix your funnel metrics and payment processing.'
+                ),
+                'rating': '★★☆☆☆ (2 stars)',
+                'review_id': 'R73483',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73483',
+                'overall_sentiment': 'negative',
+                'notable_phrases': [
+                    'checkout flow is broken',
+                    'payment gateway times out',
+                    'Fix your funnel metrics and payment processing',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'Payment & Checkout',
+                        'sentiment': 'negative',
+                        'problem': 'Checkout flow is broken and payment gateway times out',
+                        'suggested_solution': 'Fix the payment processing',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Conversion funnel analytics do not track properly from PDP to checkout',
+                        'suggested_solution': 'Fix the funnel metrics',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-08',
+                'text': (
+                    'This app has potential but there are too many problems right now. First, it crashes whenever I tr'
+                    'y to edit my profile picture. Second, the search function barely works - I type something specifi'
+                    'c and get completely unrelated results. Third, ads are way too frequent and disrupt the experienc'
+                    'e. Fourth, the latest update changed the layout and now everything takes extra clicks to access. '
+                    'They also removed the quick access toolbar which was super useful. Please fix these issues and br'
+                    'ing back the old layout!'
+                ),
+                'rating': '★★☆☆☆ (2 stars)',
+                'review_id': 'R73493',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73493',
+                'overall_sentiment': 'negative',
+                'notable_phrases': [
+                    'there are too many problems right now',
+                    'crashes whenever I try to edit my profile picture',
+                    'ads are way too frequent and disrupt the experience',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'App crashes when trying to edit profile picture',
+                        'suggested_solution': 'Fix the crashing issue',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Search function provides unrelated results',
+                        'suggested_solution': 'Improve search functionality',
+                    },
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'negative',
+                        'problem': 'Layout changes require extra clicks to access features',
+                        'suggested_solution': 'Bring back the old layout',
+                    },
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'negative',
+                        'problem': 'Removal of quick access toolbar',
+                        'suggested_solution': 'Restore the quick access toolbar',
+                    },
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'negative',
+                        'problem': 'Ads are too frequent and disrupt user experience',
+                        'suggested_solution': 'Reduce the frequency of ads',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-05',
+                'text': (
+                    'App OK 4 basic stuff. UI = decent. MAJOR ISSUE: payment system glitchy af!!! tried 2 buy premium '
+                    "3x & $$ taken but no upgrade?? CS not responding 2 emails. FIX ASAP or I'm OUT!!!"
+                ),
+                'rating': '★★★☆☆ (3 stars)',
+                'review_id': 'R73492',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73492',
+                'overall_sentiment': 'negative',
+                'notable_phrases': [
+                    'MAJOR ISSUE: payment system glitchy af!!!',
+                    'tried 2 buy premium 3x & $$ taken but no upgrade??',
+                    'CS not responding 2 emails',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'Payment & Checkout',
+                        'sentiment': 'negative',
+                        'problem': 'Payment system is glitchy and does not upgrade after payment is taken',
+                        'suggested_solution': 'Fix the payment system ASAP',
+                    },
+                    {
+                        'topic': 'Customer Service',
+                        'sentiment': 'negative',
+                        'problem': 'Customer service is not responding to emails',
+                        'suggested_solution': '',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-17',
+                'text': (
+                    'This app has a major glitch when using the payment system. It showed an error but still charged m'
+                    "e! Also noticed a bug where notifications don't clear properly. And there's this weird issue wher"
+                    "e some product images don't load. Fix these problems please!"
+                ),
+                'rating': '★★☆☆☆ (2 stars)',
+                'review_id': 'R73497',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73497',
+                'overall_sentiment': 'negative',
+                'notable_phrases': [
+                    'major glitch when using the payment system',
+                    'showed an error but still charged me',
+                    'fix these problems please!',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'Payment & Checkout',
+                        'sentiment': 'negative',
+                        'problem': 'Major glitch in the payment system that charged the user despite showing an error',
+                        'suggested_solution': 'Fix the payment system glitch',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Notifications do not clear properly',
+                        'suggested_solution': 'Fix the notification clearing issue',
+                    },
+                    {
+                        'topic': 'Product Information',
+                        'sentiment': 'negative',
+                        'problem': 'Some product images do not load',
+                        'suggested_solution': 'Resolve the issue with product images not loading',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-13',
+                'text': (
+                    'Great app overall! I just wish there was a way to save my frequently ordered items. It would save'
+                    ' me so much time. The load times are decent but could be faster. Love the reward points system th'
+                    'ough - keep that going!'
+                ),
+                'rating': '★★★★☆ (4 stars)',
+                'review_id': 'R73495',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73495',
+                'overall_sentiment': 'positive',
+                'notable_phrases': [
+                    'Great app overall!',
+                    'It would save me so much time.',
+                    'Love the reward points system though - keep that going!',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Order Operations',
+                        'sentiment': 'negative',
+                        'problem': 'No way to save frequently ordered items',
+                        'suggested_solution': 'Add a feature to save frequently ordered items',
+                    },
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'negative',
+                        'problem': 'Load times could be faster',
+                        'suggested_solution': 'Improve load times for better user experience',
+                    },
+                    {
+                        'topic': 'Customer Service',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-05-03',
+                'text': (
+                    'Great app overall! The interface is awful and confusing though. Love how fast it works but it cra'
+                    "shes all the time. Customer service responded immediately but didn't solve my problem. Would defi"
+                    'nitely recommend despite all the issues.'
+                ),
+                'rating': '★★★★☆ (4 stars)',
+                'review_id': 'R73485',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73485',
+                'overall_sentiment': 'mixed',
+                'notable_phrases': [
+                    'Great app overall!',
+                    'The interface is awful and confusing though.',
+                    'it crashes all the time',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'mixed',
+                        'problem': 'App crashes frequently',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'negative',
+                        'problem': 'Interface is awful and confusing',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Customer Service',
+                        'sentiment': 'positive',
+                        'problem': 'Customer service responded immediately but did not solve the problem',
+                        'suggested_solution': '',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-30',
+                'text': (
+                    'Been using the app for a year now. Love the loyalty program and how easy checkout is. Would be ni'
+                    'ce if the app remembered my payment info though. Also noticed the app is getting slower with each'
+                    ' update. Not a dealbreaker but definitely annoying.'
+                ),
+                'rating': '★★★☆☆ (3 stars)',
+                'review_id': 'R73482',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73482',
+                'overall_sentiment': 'mixed',
+                'notable_phrases': [
+                    'Love the loyalty program and how easy checkout is',
+                    'app is getting slower with each update',
+                    'definitely annoying',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'Payment & Checkout',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'App is getting slower with each update',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Payment & Checkout',
+                        'sentiment': 'negative',
+                        'problem': 'App does not remember payment information',
+                        'suggested_solution': 'Add feature to remember payment information',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-29',
+                'text': 'bad.',
+                'rating': '★★★☆☆ (3 stars)',
+                'review_id': 'R73481',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73481',
+                'overall_sentiment': 'negative',
+                'notable_phrases': ['bad.'],
+                'opinions': [],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-05-02',
+                'text': (
+                    "I can't seem to get anything done with this app anymore. Everything is too difficult to find afte"
+                    "r the redesign. Sometimes I just give up because it's too frustrating. Also noticed my phone gets"
+                    ' really hot when I use it for more than a few minutes, which never happened before.'
+                ),
+                'rating': '★★☆☆☆ (2 stars)',
+                'review_id': 'R73484',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73484',
+                'overall_sentiment': 'negative',
+                'notable_phrases': [
+                    "I can't seem to get anything done with this app anymore",
+                    'Everything is too difficult to find after the redesign',
+                    'my phone gets really hot when I use it for more than a few minutes',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'negative',
+                        'problem': 'App is difficult to navigate after the redesign',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Phone gets hot when using the app for extended periods',
+                        'suggested_solution': '',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-19',
+                'text': (
+                    'App works well for most things. The checkout process is smooth. Would be nice to have more paymen'
+                    "t options though. Sometimes product descriptions don't match what's delivered, but that might be "
+                    'on the sellers and not the app itself.'
+                ),
+                'rating': '★★★★☆ (4 stars)',
+                'review_id': 'R73498',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73498',
+                'overall_sentiment': 'positive',
+                'notable_phrases': [
+                    'App works well for most things',
+                    'The checkout process is smooth',
+                    "Sometimes product descriptions don't match what's delivered",
+                ],
+                'opinions': [
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Payment & Checkout',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Product Information',
+                        'sentiment': 'negative',
+                        'problem': 'Product descriptions sometimes do not match delivered items',
+                        'suggested_solution': 'Ensure product descriptions are accurate and match delivered items',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-25',
+                'text': (
+                    "WORST. APP. EVER!!! Absolute garbage!!! Can't believe I wasted my time with this!!! Everything ab"
+                    'out it is TERRIBLE!!! Do not download unless you want to be COMPLETELY FRUSTRATED!!! The develope'
+                    "rs should be ASHAMED!!! I've never been so angry using an app before!!!"
+                ),
+                'rating': '★☆☆☆☆ (1 star)',
+                'review_id': 'R73490',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73490',
+                'overall_sentiment': 'negative',
+                'notable_phrases': [
+                    'WORST. APP. EVER!!!',
+                    'Absolute garbage!!!',
+                    'Everything about it is TERRIBLE!!!',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'App is frustrating to use and does not meet user expectations',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Customer Service',
+                        'sentiment': 'negative',
+                        'problem': 'Developers are not responsive to user feedback',
+                        'suggested_solution': '',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-22',
+                'text': (
+                    'The API integration with my inventory system is completely broken in the latest release. The webh'
+                    'ook callbacks fail silently and the JSON responses are malformed. The SDK documentation is outdat'
+                    'ed and the rate limiting is too aggressive for enterprise use cases. Backend performance has also'
+                    ' degraded significantly with 5+ second response times on basic queries.'
+                ),
+                'rating': '★★☆☆☆ (2 stars)',
+                'review_id': 'R73487',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73487',
+                'overall_sentiment': 'negative',
+                'notable_phrases': [
+                    'API integration with my inventory system is completely broken',
+                    'webhook callbacks fail silently',
+                    'rate limiting is too aggressive for enterprise use cases',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'API integration with inventory system is broken',
+                        'suggested_solution': 'Fix the API integration and ensure proper functionality',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Webhook callbacks fail silently',
+                        'suggested_solution': 'Address the issue with webhook callbacks',
+                    },
+                    {
+                        'topic': 'Product Information',
+                        'sentiment': 'negative',
+                        'problem': 'SDK documentation is outdated',
+                        'suggested_solution': 'Update the SDK documentation',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Rate limiting is too aggressive for enterprise use cases',
+                        'suggested_solution': 'Adjust rate limiting for enterprise users',
+                    },
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'Backend performance has degraded with slow response times',
+                        'suggested_solution': 'Improve backend performance to reduce response times',
+                    },
+                ],
+            },
+        },
+    },
+    {
+        'inputs': {
+            'raw_review': {
+                'date': '2024-04-21',
+                'text': (
+                    "This app isn't terrible but it's not great either. Interface is nice enough I guess. Shopping exp"
+                    'erience is decent when it works, but it crashes at least once every time I use it. Prices are goo'
+                    "d but shipping costs are ridiculous. Been using it for 6 months and they've made some improvement"
+                    's but still has a way to go.'
+                ),
+                'rating': '★★★☆☆ (3 stars)',
+                'review_id': 'R73486',
+            },
+        },
+        'outputs': {
+            'structured_review': {
+                'review_id': 'R73486',
+                'overall_sentiment': 'mixed',
+                'notable_phrases': [
+                    "This app isn't terrible but it's not great either",
+                    'it crashes at least once every time I use it',
+                    'shipping costs are ridiculous',
+                ],
+                'opinions': [
+                    {
+                        'topic': 'App Functionality',
+                        'sentiment': 'negative',
+                        'problem': 'App crashes at least once every time it is used',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'UI & UX',
+                        'sentiment': 'neutral',
+                        'problem': 'Interface is nice enough',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Order Operations',
+                        'sentiment': 'negative',
+                        'problem': 'Shipping costs are considered ridiculous',
+                        'suggested_solution': '',
+                    },
+                    {
+                        'topic': 'Product Information',
+                        'sentiment': 'positive',
+                        'problem': '',
+                        'suggested_solution': '',
+                    },
+                ],
+            },
+        },
+    },
+]
